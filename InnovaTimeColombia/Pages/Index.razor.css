@@ -1,0 +1,130 @@
+﻿
+img {
+    width: 100%;
+}
+
+section {
+    color: #000000;
+    text-align: center;
+    padding: 5rem;
+}
+
+h1, h5 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+#Inicio {
+    background: url("images/index/portada.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+    padding: 0;
+}
+
+    #Inicio .portada {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        color: #FFFFFF;
+        background-color: rgba(0, 0, 0, .5);
+        height: 700px;
+        padding: 5rem;
+    }
+
+        #Inicio .portada .tittle {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        #Inicio .portada .description {
+            margin-top: 50px;
+            font-size: 2rem;
+        }
+
+#QueHacemos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+}
+
+    #QueHacemos > div {
+        width: 48%;
+    }
+
+    #QueHacemos .imagen {
+        box-shadow: -2rem -1rem #075E54;
+    }
+
+    #QueHacemos .description {
+        font-size: 1.25rem;
+        box-shadow: 0px 0px 1rem 0px RGB(0 0 0 / 50%);
+        padding: 1rem;
+    }
+
+        #QueHacemos .description h1 {
+            border-bottom: 2px solid #2879BC;
+        }
+
+        #QueHacemos .description p {
+            margin-top: 3rem;
+        }
+
+
+#ComoLoHacemos .description {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    font-size: 1.1rem;
+}
+
+    #ComoLoHacemos .description div {
+        width: 400px;
+    }
+
+#ComoLoHacemos img {
+    width: 250px;
+}
+
+#ComoLoHacemos h1 {
+    margin-bottom: 3rem;
+}
+
+#Servicios {
+    background-color: #F5F5F5;
+}
+
+    #Servicios img {
+        width: 300px;
+    }
+
+    #Servicios .description {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+        #Servicios .description p {
+            text-align: justify;
+        }
+
+        #Servicios .description div {
+            width: 400px;
+            padding: 1rem;
+            margin: 1rem;
+            box-shadow: 0px 0px 10px 0px #F7A928;
+        }
+
+#Tecnologias img {
+    width: 150px;
+}
+
+#Tecnologias .description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
