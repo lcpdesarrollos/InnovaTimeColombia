@@ -1,0 +1,17 @@
+﻿Colores Hexadecimales
+#2879BC - azul
+#48BAB8 - verde agua marina
+#A5A5A5 - gris
+#F5F5F5 - blanco gris
+#FFFFFF - blanco
+#000000 - negro
+
+
+
+RGB
+RGB(40 121 188) - azul
+RGB(72 186 14) - verde agua marina
+RGB(165 165 165) - gris
+RGB(245 245 245) - blanco gris
+RGB(255 255 255) - blanco
+RGB(0 0 0) - negro
