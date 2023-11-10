@@ -15,3 +15,11 @@ RGB(165 165 165) - gris
 RGB(245 245 245) - blanco gris
 RGB(255 255 255) - blanco
 RGB(0 0 0) - negro
+
+
+
+
+#5cb85c - verde
+#FCBB13 - naranja
+#D9534F - rojo
+
