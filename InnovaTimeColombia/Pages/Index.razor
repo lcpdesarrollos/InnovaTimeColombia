@@ -1,48 +1,12 @@
 ﻿@page "/"
 
-<style>
-
-    @@-webkit-keyframes fadeInUp {
-        0% {
-            -webkit-transform: translate3d(0, 100%, 0);
-            opacity: 0;
-            transform: translate3d(0, 100%, 0)
-        }
-
-        to {
-            -webkit-transform: translateZ(0);
-            opacity: 1;
-            transform: translateZ(0)
-        }
-    }
-
-    @@keyframes fadeInUp {
-        0% {
-            -webkit-transform: translate3d(0, 100%, 0);
-            opacity: 0;
-            transform: translate3d(0, 100%, 0)
-        }
-
-        to {
-            -webkit-transform: translateZ(0);
-            opacity: 1;
-            transform: translateZ(0)
-        }
-    }
-
-    .fadeInUp {
-        -webkit-animation-name: fadeInUp;
-        animation-name: fadeInUp
-    }
-</style>
-
 <section id="inicio" class="inicio">
     <div class="portada">
-        <p class="tittle fadeInUp">
+        <p class="tittle animate__animated animate__slideInDown">
             Diseño de paginas web, Aplicaciones Moviles y Software a la Medida.
         </p>
         <br />
-        <p class="description">
+        <p class="description animate__animated animate__slideInUp">
             Desarrollamos software confiable, seguro y escalable para su empresa. Nuestro compromiso es brindar soluciones tecnológicas para la transformación digital y optimización de su empresa, con una perspectiva ética y humana, buscando ofrecer servicios eficientes a la sociedad, utilizando y administrando recursos electrónicos e informáticos.
         </p>
     </div>
@@ -50,7 +14,7 @@
 
 <section id="empresa">
     <h1>Nuestra Empresa</h1>
-    <p class="concepto fadeInUp">
+    <p class="concepto animate__animated animate__bounce">
         InnovaTime es una empresa especializada
         en el <strong>Desarrollo de Software</strong>, destacada
         por su enfoque vanguardista y soluciones
