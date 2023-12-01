@@ -6,124 +6,233 @@ img {
 section {
     color: #000000;
     text-align: center;
-    padding: 5rem;
+   padding: 5rem;
 }
 
 h1, h5 {
-    margin-top: 2rem;
     margin-bottom: 2rem;
-}
-
-h5 {
     font-weight: bold;
 }
 
-#Inicio {
+#inicio {
     background: url("images/index/portada.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 700px;
+    height: 100vh;
     padding: 0;
 }
 
-    #Inicio .portada {
+    #inicio .portada {
         display: flex;
         justify-content: center;
         flex-direction: column;
         width: 100%;
         color: #FFFFFF;
         background-color: rgba(0, 0, 0, .5);
-        height: 700px;
+        height: 100vh;
         padding: 5rem;
     }
 
-        #Inicio .portada .tittle {
+        #inicio .portada .tittle {
             font-size: 3.5rem;
             font-weight: bold;
         }
 
-        #Inicio .portada .description {
+        #inicio .portada .description {
             margin-top: 50px;
             font-size: 2rem;
         }
 
-#QueHacemos {
+#empresa .concepto {
+    padding: 0rem 5rem;
+    font-size: 1.5rem;
+}
+
+#empresa img {
+    width: 100px;
+}
+
+#empresa .description {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+    #empresa .description div {
+        width: 400px;
+        padding: 0 2rem;
+        margin: 0 2rem;
+    }
+
+    #empresa .description p {
+        text-align: justify;
+    }
+
+@keyframes fadeInUp {
+    0% {
+        -webkit-transform: translate3d(0, 100%, 0);
+        opacity: 0;
+        transform: translate3d(0, 100%, 0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+        transform: translateZ(0)
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp
+}
+
+#quehacemos {
     display: flex;
     justify-content: space-around;
     background-color: #F5F5F5;
 }
 
-    #QueHacemos > div {
+    #quehacemos > div {
         width: 48%;
     }
 
-    #QueHacemos .imagen {
+    #quehacemos .imagen {
         box-shadow: -2rem -1rem #075E54;
     }
 
-    #QueHacemos .description {
+    #quehacemos .description {
         font-size: 1.25rem;
         box-shadow: 0px 0px 1rem 0px RGB(0 0 0 / 50%);
         padding: 1rem;
     }
 
-        #QueHacemos .description h1 {
+        #quehacemos .description h1 {
             border-bottom: 2px solid #2879BC;
         }
 
-        #QueHacemos .description p {
-            margin-top: 3rem;
+        #quehacemos .description p {
+            text-align: justify;
+            padding: 5rem;
         }
 
 
-#ComoLoHacemos .description {
+#proceso .description {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
     font-size: 1.1rem;
 }
 
-    #ComoLoHacemos .description div {
+    #proceso .description div {
         width: 400px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        padding: 1rem;
     }
 
-#ComoLoHacemos img {
+#proceso img {
     width: 250px;
 }
 
-#ComoLoHacemos h1 {
+#proceso h1 {
     margin-bottom: 3rem;
 }
 
-#Servicios {
+#servicios {
     background-color: #F5F5F5;
 }
 
-    #Servicios img {
+    #servicios img {
         width: 300px;
     }
 
-    #Servicios .description {
+    #servicios .description {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
     }
 
-        #Servicios .description p {
-            text-align: justify;
-        }
-
-        #Servicios .description div {
+        #servicios .description div {
             width: 400px;
             padding: 1rem;
             margin: 1rem;
+        }
+
+        #servicios .description p {
+            text-align: justify;
+        }
+
+        #servicios .description > div {
             box-shadow: 0px 0px 10px 0px #F7A928;
         }
 
-#Tecnologias img {
+        #servicios .description div:hover {
+            box-shadow: 0px 0px 10px 0px #F7A928;
+        }
+
+/*#Servicios .description .borderLeftRigth:before,
+        #Servicios .description .borderLeftRigth:after,
+        #Servicios .description .borderTopBottom:before,
+        #Servicios .description .borderTopBottom:after {
+            content: "";
+            background-color: #ff214f;
+        }
+
+        #Servicios .description .borderLeftRigth:before,
+        #Servicios .description .borderTopBottom:before {
+            left: 0;
+            top: 0;
+            transform-origin: left top 0;
+        }
+
+        #Servicios .description .borderLeftRigth:after,
+        #Servicios .description .borderTopBottom:after {
+            right: 0;
+            bottom: 0;
+            transform-origin: right bottom 0;
+        }
+
+        #Servicios .description .borderLeftRigth:before,
+        #Servicios .description .borderLeftRigth:after {
+            height: 0%;
+            width: 30px;
+            transform: scaleY(0);
+            transition-duration: 0.5s;
+        }
+
+        #Servicios .description .borderLeftRigth:hover:before,
+        #Servicios .description .borderLeftRigth:hover:after {
+            height: 100%;
+            width: 30px;
+            transform: scaleY(1);
+            transition-duration: 0.5s;
+        }
+
+        #Servicios .description .borderTopBottom:before,
+        #Servicios .description .borderTopBottom:after {
+            width: 0%;
+            height: 3px;
+            transform: scaleX(0);
+            transition-duration: 0.5s;
+        }
+
+        #Servicios .description .borderTopBottom:hover:before,
+        #Servicios .description .borderTopBottom:hover:after {
+            width: 100%;
+            height: 3px;
+            transform: scaleX(1) scaleY(1);
+            transition-duration: 0.5s;
+        }*/
+
+
+#tecnologias img {
     width: 150px;
 }
 
-#Tecnologias .description {
+#tecnologias .description {
     display: flex;
     justify-content: space-around;
     align-items: center;

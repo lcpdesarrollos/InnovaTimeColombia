@@ -1,5 +1,4 @@
-﻿
-img {
+﻿img {
     width: 100%;
     background-size: cover;
 }
@@ -62,14 +61,14 @@ img {
             display: block;
         }
 
-    #Contacto .informacion {
-        width: 100%;
-        margin-bottom: 25px;
-    }
-
-        #Contacto .informacion img {
+        #Contacto .informacion {
             width: 100%;
+            margin-bottom: 25px;
         }
+
+            #Contacto .informacion img {
+                width: 100%;
+            }
 
         #Contacto .img {
             width: 100%;
@@ -101,22 +100,22 @@ img {
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
 
-        #Contacto .container {
-            display: block;
+    #Contacto .container {
+        display: block;
+    }
+
+    #Contacto .informacion {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+        #Contacto .informacion img {
+            width: 60%;
         }
 
-        #Contacto .informacion {
-            width: 100%;
-            margin-bottom: 25px;
-        }
-
-            #Contacto .informacion img {
-                width: 60%;
-            }
-
-        #Contacto .img {
-            width: 100%;
-        }
+    #Contacto .img {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1024px) {
@@ -144,5 +143,3 @@ img {
         width: 60%;
     }
 }
-
-
