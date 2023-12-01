@@ -1,8 +1,29 @@
 ﻿@page "/"
 
+<style>
+    @@keyframes fadeInUp {
+        0% {
+            -webkit-transform: translate3d(0, 100%, 0);
+            opacity: 0;
+            transform: translate3d(0, 100%, 0)
+        }
+
+        to {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+            transform: translateZ(0)
+        }
+    }
+
+    .fadeInUp {
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp
+    }
+</style>
+
 <section id="inicio" class="inicio">
     <div class="portada">
-        <p class="tittle">
+        <p class="tittle fadeInUp">
             Diseño de paginas web, Aplicaciones Moviles y Software a la Medida.
         </p>
         <br />
@@ -15,20 +36,20 @@
 <section id="empresa">
     <h1>Nuestra Empresa</h1>
     <p class="concepto fadeInUp">
-        InnovaTime es una empresa especializada 
+        InnovaTime es una empresa especializada
         en el <strong>Desarrollo de Software</strong>, destacada
-        por su enfoque vanguardista y soluciones 
-        personalizadas. Nos distinguimos por 
-        fusionar creatividad y experiencia técnica 
-        para proporcionar a nuestros clientes 
-        herramientas digitales que no solo cumplen 
-        con sus necesidades actuales, sino que también 
-        anticipan y se adaptan a los desafíos futuros. 
-        
-        Nuestro compromiso es impulsar el progreso 
-        tecnológico de las empresas, permitiéndoles 
-        alcanzar niveles óptimos de eficiencia y 
-        competitividad en un mundo empresarial en 
+        por su enfoque vanguardista y soluciones
+        personalizadas. Nos distinguimos por
+        fusionar creatividad y experiencia técnica
+        para proporcionar a nuestros clientes
+        herramientas digitales que no solo cumplen
+        con sus necesidades actuales, sino que también
+        anticipan y se adaptan a los desafíos futuros.
+
+        Nuestro compromiso es impulsar el progreso
+        tecnológico de las empresas, permitiéndoles
+        alcanzar niveles óptimos de eficiencia y
+        competitividad en un mundo empresarial en
         constante evolución
     </p>
     <div class="description">
@@ -188,19 +209,19 @@
     <h1>Servicios</h1>
     <div class="description">
         <div>
-        @* <div class="borderLeftRigth"> *@
+            @* <div class="borderLeftRigth"> *@
             @* <div class="borderTopBottom"> *@
-                <img src="images/index/servicios_custom_software.jpg" />
-                <h5>Fabricación De Software</h5>
-                <p>
-                    Ofrecemos servicios de desarrollo de software,
-                    buscando la solución que mejor se adapte a las necesidades de su negocio.
-                    <br />
-                    Analizamos de manera exhaustiva los requerimientos de tu empresa,
-                    realizamos el diseño funcional y técnico,
-                    lo integramos con otros softwares,
-                    acometemos la puesta en marcha y la formación de los usuarios.
-                </p>
+            <img src="images/index/servicios_custom_software.jpg" />
+            <h5>Fabricación De Software</h5>
+            <p>
+                Ofrecemos servicios de desarrollo de software,
+                buscando la solución que mejor se adapte a las necesidades de su negocio.
+                <br />
+                Analizamos de manera exhaustiva los requerimientos de tu empresa,
+                realizamos el diseño funcional y técnico,
+                lo integramos con otros softwares,
+                acometemos la puesta en marcha y la formación de los usuarios.
+            </p>
             @* </div> *@
         </div>
         <div>

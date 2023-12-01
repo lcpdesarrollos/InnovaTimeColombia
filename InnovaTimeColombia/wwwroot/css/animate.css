@@ -1,6 +1,5 @@
-﻿<style type="text/css">
-    @keyframes fadeInUp {
-        0% {
+﻿@keyframes fadeInUp {
+    0% {
         -webkit-transform: translate3d(0, 100%, 0);
         opacity: 0;
         transform: translate3d(0, 100%, 0)
@@ -17,4 +16,3 @@
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp
 }
-</style>

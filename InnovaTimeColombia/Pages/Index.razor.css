@@ -42,6 +42,8 @@ h1, h5 {
             font-size: 2rem;
         }
 
+
+
 #empresa .concepto {
     padding: 0rem 5rem;
     font-size: 1.5rem;
@@ -67,25 +69,6 @@ h1, h5 {
     #empresa .description p {
         text-align: justify;
     }
-
-@keyframes fadeInUp {
-    0% {
-        -webkit-transform: translate3d(0, 100%, 0);
-        opacity: 0;
-        transform: translate3d(0, 100%, 0)
-    }
-
-    to {
-        -webkit-transform: translateZ(0);
-        opacity: 1;
-        transform: translateZ(0)
-    }
-}
-
-.fadeInUp {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp
-}
 
 #quehacemos {
     display: flex;
