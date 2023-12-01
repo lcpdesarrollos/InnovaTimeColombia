@@ -190,6 +190,21 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         }
 
 
+/*.tittle {
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        opacity:0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}*/
+
 
 #empresa .concepto[b-aa2z70w3sl] {
     padding: 0rem 5rem;
