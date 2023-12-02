@@ -6,7 +6,7 @@ img {
 section {
     color: #000000;
     text-align: center;
-   padding: 5rem;
+    padding: 5rem;
 }
 
 h1, h5 {
@@ -52,6 +52,7 @@ h1, h5 {
     width: 100px;
 }
 
+
 #empresa .description {
     margin-top: 50px;
     display: flex;
@@ -61,13 +62,18 @@ h1, h5 {
 
     #empresa .description div {
         width: 400px;
-        padding: 0 2rem;
+        padding: 1rem 2rem;
         margin: 0 2rem;
     }
+
+        #empresa .description div:hover {
+            background-color: #F5F5F5;
+        }
 
     #empresa .description p {
         text-align: justify;
     }
+
 
 #quehacemos {
     display: flex;
@@ -99,61 +105,78 @@ h1, h5 {
         }
 
 
-#proceso .description {
+#proceso article {
     display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    font-size: 1.1rem;
+    width: 100%;
+    padding: 1rem 10rem;
+    justify-content: space-between;
 }
 
-    #proceso .description div {
-        width: 400px;
-        overflow: hidden;
-        position: relative;
-        text-align: center;
-        cursor: pointer;
+    #proceso article div {
+        width: 50%;
+    }
+
+    #proceso article .description {
+        justify-content: center;
+        margin: auto;
+        text-align: justify;
+        font-size: 1.25rem;
+        background-color: #F5F5F5;
         padding: 1rem;
     }
 
-#proceso img {
-    width: 250px;
-}
+    #proceso article img {
+        width: 50%;
+    }
 
-#proceso h1 {
-    margin-bottom: 3rem;
-}
+    #proceso article div .shadow-left {
+        box-shadow: -10px 10px 10px 10px RGB(0 0 0 / 50%);
+        border-radius: 10px;
+    }
+
+    #proceso article div .shadow-right {
+        box-shadow: 10px 10px 10px 10px RGB(0 0 0 / 50%);
+        border-radius: 10px;
+    }
+
+/*#proceso img {
+    width: 250px;
+}*/
 
 #servicios {
     background-color: #F5F5F5;
 }
 
-    #servicios img {
-        width: 300px;
-    }
-
-    #servicios .description {
+    #servicios .description{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
     }
 
-        #servicios .description div {
-            width: 400px;
-            padding: 1rem;
-            margin: 1rem;
-        }
+    #servicios .description article {
+        width: 400px;
+        height: 600px;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    #servicios .description article img {
+        width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+    }
 
-        #servicios .description p {
+
+        /*#servicios .description p {
             text-align: justify;
-        }
+        }*/
 
-        #servicios .description > div {
+        /*#servicios .description > div {
             box-shadow: 0px 0px 10px 0px #F7A928;
         }
 
         #servicios .description div:hover {
             box-shadow: 0px 0px 10px 0px #F7A928;
-        }
+        }*/
 
 /*#Servicios .description .borderLeftRigth:before,
         #Servicios .description .borderLeftRigth:after,
