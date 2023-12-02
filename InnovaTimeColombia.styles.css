@@ -153,7 +153,7 @@ img[b-aa2z70w3sl] {
 section[b-aa2z70w3sl] {
     color: #000000;
     text-align: center;
-   padding: 5rem;
+    padding: 5rem;
 }
 
 h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
@@ -199,6 +199,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     width: 100px;
 }
 
+
 #empresa .description[b-aa2z70w3sl] {
     margin-top: 50px;
     display: flex;
@@ -208,13 +209,18 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
 
     #empresa .description div[b-aa2z70w3sl] {
         width: 400px;
-        padding: 0 2rem;
+        padding: 1rem 2rem;
         margin: 0 2rem;
     }
+
+        #empresa .description div:hover[b-aa2z70w3sl] {
+            background-color: #F5F5F5;
+        }
 
     #empresa .description p[b-aa2z70w3sl] {
         text-align: justify;
     }
+
 
 #quehacemos[b-aa2z70w3sl] {
     display: flex;
@@ -246,61 +252,78 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         }
 
 
-#proceso .description[b-aa2z70w3sl] {
+#proceso article[b-aa2z70w3sl] {
     display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    font-size: 1.1rem;
+    width: 100%;
+    padding: 1rem 10rem;
+    justify-content: space-between;
 }
 
-    #proceso .description div[b-aa2z70w3sl] {
-        width: 400px;
-        overflow: hidden;
-        position: relative;
-        text-align: center;
-        cursor: pointer;
+    #proceso article div[b-aa2z70w3sl] {
+        width: 50%;
+    }
+
+    #proceso article .description[b-aa2z70w3sl] {
+        justify-content: center;
+        margin: auto;
+        text-align: justify;
+        font-size: 1.25rem;
+        background-color: #F5F5F5;
         padding: 1rem;
     }
 
-#proceso img[b-aa2z70w3sl] {
-    width: 250px;
-}
+    #proceso article img[b-aa2z70w3sl] {
+        width: 50%;
+    }
 
-#proceso h1[b-aa2z70w3sl] {
-    margin-bottom: 3rem;
-}
+    #proceso article div .shadow-left[b-aa2z70w3sl] {
+        box-shadow: -10px 10px 10px 10px RGB(0 0 0 / 50%);
+        border-radius: 10px;
+    }
+
+    #proceso article div .shadow-right[b-aa2z70w3sl] {
+        box-shadow: 10px 10px 10px 10px RGB(0 0 0 / 50%);
+        border-radius: 10px;
+    }
+
+/*#proceso img {
+    width: 250px;
+}*/
 
 #servicios[b-aa2z70w3sl] {
     background-color: #F5F5F5;
 }
 
-    #servicios img[b-aa2z70w3sl] {
-        width: 300px;
-    }
-
-    #servicios .description[b-aa2z70w3sl] {
+    #servicios .description[b-aa2z70w3sl]{
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
     }
 
-        #servicios .description div[b-aa2z70w3sl] {
-            width: 400px;
-            padding: 1rem;
-            margin: 1rem;
-        }
+    #servicios .description article[b-aa2z70w3sl] {
+        width: 400px;
+        height: 600px;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    #servicios .description article img[b-aa2z70w3sl] {
+        width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+    }
 
-        #servicios .description p[b-aa2z70w3sl] {
+
+        /*#servicios .description p {
             text-align: justify;
-        }
+        }*/
 
-        #servicios .description > div[b-aa2z70w3sl] {
+        /*#servicios .description > div {
             box-shadow: 0px 0px 10px 0px #F7A928;
         }
 
-        #servicios .description div:hover[b-aa2z70w3sl] {
+        #servicios .description div:hover {
             box-shadow: 0px 0px 10px 0px #F7A928;
-        }
+        }*/
 
 /*#Servicios .description .borderLeftRigth:before,
         #Servicios .description .borderLeftRigth:after,
