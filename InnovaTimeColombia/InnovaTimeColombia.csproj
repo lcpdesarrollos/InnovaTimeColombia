@@ -7,12 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\Footer.razor.css" />
     <None Remove="Pages\Index.razor.css" />
+    <None Remove="Shared\FooterPage.razor.css" />
     <None Remove="Shared\MenuTop.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Pages\Index.razor.css" />
+    <Content Include="Shared\FooterPage.razor.css" />
     <Content Include="Shared\MenuTop.razor.css" />
   </ItemGroup>
 

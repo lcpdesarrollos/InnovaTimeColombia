@@ -233,13 +233,3 @@ h1, h5 {
         }*/
 
 
-#tecnologias img {
-    width: 150px;
-}
-
-#tecnologias .description {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-}
