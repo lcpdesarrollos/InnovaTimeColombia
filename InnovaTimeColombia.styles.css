@@ -266,23 +266,38 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         }*/
 
 
-#tecnologias img[b-aa2z70w3sl] {
-    width: 150px;
+/* /Shared/FooterPage.razor.rz.scp.css */
+
+#footerPage[b-df7rb1v7cj] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem;
 }
 
-#tecnologias .description[b-aa2z70w3sl] {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-}
-/* /Pages/QuienesSomos.razor.rz.scp.css */
 
-img[b-ttl5duwhyh] {
-    width: 100%;
-    background-size: cover;
-}
 
+
+    #footerPage .container article[b-df7rb1v7cj] {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+    }
+
+        #footerPage .container article div[b-df7rb1v7cj] {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            width: 30%;
+        }
+
+        #footerPage .container article .logo-empresa img[b-df7rb1v7cj] {
+            width: 15rem;
+        }
+
+            #footerPage .container article .redes-sociales div a img[b-df7rb1v7cj]{
+                width: 30px;
+                margin-bottom: 1rem;
+            }
 /* /Shared/MainLayout.razor.rz.scp.css */
 *[b-w6tsxb3aap] {
     margin: 0;
