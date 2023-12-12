@@ -77,7 +77,6 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
 
 
 #empresa .concepto[b-aa2z70w3sl] {
-    padding: 0rem 5rem;
     font-size: 1.5rem;
 }
 
@@ -96,7 +95,6 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     #empresa .description div[b-aa2z70w3sl] {
         width: 400px;
         padding: 1rem 2rem;
-        margin: 0 2rem;
     }
 
         #empresa .description div:hover[b-aa2z70w3sl] {
@@ -105,6 +103,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
 
     #empresa .description p[b-aa2z70w3sl] {
         text-align: justify;
+        font-size: 1.25rem;
     }
 
 
@@ -123,17 +122,12 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     }
 
     #quehacemos .description[b-aa2z70w3sl] {
-        font-size: 1.25rem;
         box-shadow: 0px 0px 1rem 0px RGB(0 0 0 / 50%);
-        padding: 1rem;
     }
-
-        #quehacemos .description h1[b-aa2z70w3sl] {
-            border-bottom: 2px solid #2879BC;
-        }
 
         #quehacemos .description p[b-aa2z70w3sl] {
             text-align: justify;
+            font-size: 1.25rem;
             padding: 5rem;
         }
 
@@ -180,92 +174,169 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     background-color: #F5F5F5;
 }
 
-    #servicios .description[b-aa2z70w3sl]{
+    #servicios .description[b-aa2z70w3sl] {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
     }
 
-    #servicios .description article[b-aa2z70w3sl] {
+        #servicios .description article[b-aa2z70w3sl] {
+            width: 400px;
+            height: 600px;
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+            #servicios .description article img[b-aa2z70w3sl] {
+                width: 100%;
+                margin-bottom: 1rem;
+                border-radius: 10px;
+            }
+
+
+@media (max-width: 480px) {
+    section[b-aa2z70w3sl] {
+        padding: 2rem 1rem;
+    }
+
+        #inicio .portada[b-aa2z70w3sl] {
+            padding: 1rem;
+        }
+
+            #inicio .portada .tittle[b-aa2z70w3sl] {
+                font-size: 1rem;
+            }
+
+            #inicio .portada .description[b-aa2z70w3sl] {
+                margin-top: 10px;
+                font-size: 1rem;
+            }
+
+    #empresa .concepto[b-aa2z70w3sl] {
+        font-size: 1.25rem;
+    }
+
+    #empresa .description div[b-aa2z70w3sl] {
         width: 400px;
-        height: 600px;
-        padding: 1rem;
-        margin: 1rem;
-    }
-    #servicios .description article img[b-aa2z70w3sl] {
-        width: 100%;
-        margin-bottom: 1rem;
-        border-radius: 10px;
+        padding: 1rem 1rem;
     }
 
+    #quehacemos[b-aa2z70w3sl] {
+        flex-direction: column;
+    }
 
-        /*#servicios .description p {
-            text-align: justify;
-        }*/
-
-        /*#servicios .description > div {
-            box-shadow: 0px 0px 10px 0px #F7A928;
-        }
-
-        #servicios .description div:hover {
-            box-shadow: 0px 0px 10px 0px #F7A928;
-        }*/
-
-/*#Servicios .description .borderLeftRigth:before,
-        #Servicios .description .borderLeftRigth:after,
-        #Servicios .description .borderTopBottom:before,
-        #Servicios .description .borderTopBottom:after {
-            content: "";
-            background-color: #ff214f;
-        }
-
-        #Servicios .description .borderLeftRigth:before,
-        #Servicios .description .borderTopBottom:before {
-            left: 0;
-            top: 0;
-            transform-origin: left top 0;
-        }
-
-        #Servicios .description .borderLeftRigth:after,
-        #Servicios .description .borderTopBottom:after {
-            right: 0;
-            bottom: 0;
-            transform-origin: right bottom 0;
-        }
-
-        #Servicios .description .borderLeftRigth:before,
-        #Servicios .description .borderLeftRigth:after {
-            height: 0%;
-            width: 30px;
-            transform: scaleY(0);
-            transition-duration: 0.5s;
-        }
-
-        #Servicios .description .borderLeftRigth:hover:before,
-        #Servicios .description .borderLeftRigth:hover:after {
-            height: 100%;
-            width: 30px;
-            transform: scaleY(1);
-            transition-duration: 0.5s;
-        }
-
-        #Servicios .description .borderTopBottom:before,
-        #Servicios .description .borderTopBottom:after {
-            width: 0%;
-            height: 3px;
-            transform: scaleX(0);
-            transition-duration: 0.5s;
-        }
-
-        #Servicios .description .borderTopBottom:hover:before,
-        #Servicios .description .borderTopBottom:hover:after {
+        #quehacemos > div[b-aa2z70w3sl] {
             width: 100%;
-            height: 3px;
-            transform: scaleX(1) scaleY(1);
-            transition-duration: 0.5s;
-        }*/
+        }
+
+        #quehacemos .description p[b-aa2z70w3sl] {
+            text-align: justify;
+            padding: 1rem;
+        }
 
 
+    #proceso article[b-aa2z70w3sl] {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+
+        #proceso article div[b-aa2z70w3sl] {
+            width: 100%;
+            padding: 1rem 0rem;
+        }
+
+        #proceso article img[b-aa2z70w3sl] {
+            width: 100%;
+        }
+
+        #proceso article div .shadow-left[b-aa2z70w3sl] {
+            box-shadow: -3px 3px 3px 3px RGB(0 0 0 / 50%);
+        }
+
+        #proceso article div .shadow-right[b-aa2z70w3sl] {
+            box-shadow: 3px 3px 3px 3px RGB(0 0 0 / 50%);
+        }
+
+            #servicios .description article[b-aa2z70w3sl] {
+                width: 100%;
+                height: 100%;
+                padding: 0rem;
+                margin: 0rem;
+            }
+}
+
+@media (min-width: 481px) and (max-width: 640px) {
+    section[b-aa2z70w3sl] {
+        padding: 1rem;
+    }
+
+    #inicio .portada[b-aa2z70w3sl] {
+        padding: 1rem;
+    }
+
+        #inicio .portada .tittle[b-aa2z70w3sl] {
+            font-size: 2rem;
+        }
+
+        #inicio .portada .description[b-aa2z70w3sl] {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+
+    #empresa .concepto[b-aa2z70w3sl] {
+        font-size: 1.25rem;
+    }
+
+    #empresa .description div[b-aa2z70w3sl] {
+        width: 400px;
+        padding: 1rem 1rem;
+    }
+
+    #quehacemos[b-aa2z70w3sl] {
+        flex-direction: column;
+    }
+
+        #quehacemos > div[b-aa2z70w3sl] {
+            width: 100%;
+        }
+
+        #quehacemos .description p[b-aa2z70w3sl] {
+            text-align: justify;
+            padding: 1rem;
+        }
+
+
+    #proceso article[b-aa2z70w3sl] {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+
+        #proceso article div[b-aa2z70w3sl] {
+            width: 100%;
+            padding: 1rem 0rem;
+        }
+
+        #proceso article img[b-aa2z70w3sl] {
+            width: 100%;
+        }
+
+        #proceso article div .shadow-left[b-aa2z70w3sl] {
+            box-shadow: -3px 3px 3px 3px RGB(0 0 0 / 50%);
+        }
+
+        #proceso article div .shadow-right[b-aa2z70w3sl] {
+            box-shadow: 3px 3px 3px 3px RGB(0 0 0 / 50%);
+        }
+
+    #servicios .description article[b-aa2z70w3sl] {
+        width: 100%;
+        height: 100%;
+        padding: 0rem;
+        margin: 0rem;
+    }
+}
 /* /Shared/FooterPage.razor.rz.scp.css */
 
 #footerPage[b-df7rb1v7cj] {
