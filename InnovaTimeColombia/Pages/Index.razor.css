@@ -161,17 +161,17 @@ h1, h5 {
             }
 
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     section {
         padding: 2rem 1rem;
     }
 
         #inicio .portada {
-            padding: 1rem;
+            padding: 1.5rem;
         }
 
             #inicio .portada .tittle {
-                font-size: 1rem;
+                font-size: 1.25rem;
             }
 
             #inicio .portada .description {
@@ -304,3 +304,4 @@ h1, h5 {
         margin: 0rem;
     }
 }
+*/
