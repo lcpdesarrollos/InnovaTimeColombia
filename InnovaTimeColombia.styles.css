@@ -57,6 +57,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     #inicio .portada[b-aa2z70w3sl] {
         display: flex;
         justify-content: center;
+        align-content: center;
         flex-direction: column;
         width: 100%;
         color: #FFFFFF;
@@ -200,16 +201,17 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     }
 
         #inicio .portada[b-aa2z70w3sl] {
-            padding: 1.5rem;
+            padding: 1rem;
         }
 
             #inicio .portada .tittle[b-aa2z70w3sl] {
                 font-size: 1.25rem;
+                margin-top: 80px;
             }
 
             #inicio .portada .description[b-aa2z70w3sl] {
-                margin-top: 10px;
-                font-size: 1rem;
+                margin-top: 5px;
+                font-size: 1.1rem;
             }
 
     #empresa .concepto[b-aa2z70w3sl] {
