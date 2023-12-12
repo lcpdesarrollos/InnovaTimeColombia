@@ -119,7 +119,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         width: 48%;
     }
 
-    #quehacemos .imagen[b-aa2z70w3sl] {
+    #quehacemos img[b-aa2z70w3sl] {
         box-shadow: -2rem -1rem #075E54;
     }
 
@@ -200,19 +200,19 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         font-size: 1rem;
     }
 
-        #inicio .portada[b-aa2z70w3sl] {
-            padding: 1rem;
+    #inicio .portada[b-aa2z70w3sl] {
+        padding: 1rem;
+    }
+
+        #inicio .portada .tittle[b-aa2z70w3sl] {
+            font-size: 1.25rem;
+            margin-top: 80px;
         }
 
-            #inicio .portada .tittle[b-aa2z70w3sl] {
-                font-size: 1.25rem;
-                margin-top: 80px;
-            }
-
-            #inicio .portada .description[b-aa2z70w3sl] {
-                margin-top: 5px;
-                font-size: 1rem;
-            }
+        #inicio .portada .description[b-aa2z70w3sl] {
+            margin-top: 5px;
+            font-size: 1rem;
+        }
 
     #empresa .concepto[b-aa2z70w3sl] {
         font-size: 1.25rem;
@@ -233,8 +233,9 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
             margin-bottom: 1rem;
         }
 
-        #quehacemos .imagen[b-aa2z70w3sl] {
+        #quehacemos img[b-aa2z70w3sl] {
             box-shadow: -0.5rem -0.5rem #075E54;
+            width: 95%;
         }
 
         #quehacemos .description p[b-aa2z70w3sl] {
@@ -255,7 +256,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         }
 
         #proceso article img[b-aa2z70w3sl] {
-            width: 100%;
+            width: 95%;
         }
 
         #proceso article div .shadow-left[b-aa2z70w3sl] {
@@ -266,41 +267,42 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
             box-shadow: 3px 3px 3px 3px RGB(0 0 0 / 50%);
         }
 
-            #servicios .description article[b-aa2z70w3sl] {
-                width: 100%;
-                height: 100%;
-                padding: 0rem;
-                margin: 0rem;
-            }
+    #servicios .description article[b-aa2z70w3sl] {
+        width: 100%;
+        height: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 640px) {
     section[b-aa2z70w3sl] {
         padding: 2rem 1rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
-        #inicio .portada[b-aa2z70w3sl] {
-            padding: 1rem;
+    #inicio .portada[b-aa2z70w3sl] {
+        padding: 1.5rem;
+    }
+
+        #inicio .portada .tittle[b-aa2z70w3sl] {
+            font-size: 1.5rem;
+            margin-top: 50px;
         }
 
-            #inicio .portada .tittle[b-aa2z70w3sl] {
-                font-size: 1.25rem;
-                margin-top: 80px;
-            }
-
-            #inicio .portada .description[b-aa2z70w3sl] {
-                margin-top: 5px;
-                font-size: 1rem;
-            }
+        #inicio .portada .description[b-aa2z70w3sl] {
+            margin-top: 5px;
+            font-size: 1.25rem;
+        }
 
     #empresa .concepto[b-aa2z70w3sl] {
         font-size: 1.25rem;
+        padding: 1rem;
     }
 
     #empresa .description div[b-aa2z70w3sl] {
         width: 100%;
-        padding: 1rem 1rem;
+        padding: 1rem;
         margin: 0rem;
     }
 
@@ -311,15 +313,17 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         #quehacemos > div[b-aa2z70w3sl] {
             width: 100%;
             margin-bottom: 1rem;
+            padding: 1rem;
         }
 
-        #quehacemos .imagen[b-aa2z70w3sl] {
+        #quehacemos img[b-aa2z70w3sl] {
             box-shadow: -0.5rem -0.5rem #075E54;
+            width: 100%;
         }
 
         #quehacemos .description p[b-aa2z70w3sl] {
             text-align: justify;
-            padding: 1rem;
+            padding: 1.25rem;
         }
 
 
@@ -335,7 +339,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         }
 
         #proceso article img[b-aa2z70w3sl] {
-            width: 100%;
+            width: 90%;
         }
 
         #proceso article div .shadow-left[b-aa2z70w3sl] {
@@ -346,12 +350,12 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
             box-shadow: 3px 3px 3px 3px RGB(0 0 0 / 50%);
         }
 
-            #servicios .description article[b-aa2z70w3sl] {
-                width: 100%;
-                height: 100%;
-                padding: 0rem;
-                margin: 0rem;
-            }
+    #servicios .description article[b-aa2z70w3sl] {
+        width: 90%;
+        height: 90%;
+        padding: 0rem;
+        margin: 0rem;
+    }
 }
 /* /Shared/FooterPage.razor.rz.scp.css */
 
