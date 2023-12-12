@@ -194,71 +194,71 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
             }
 
 
-@media (max-width: 480px) {
-    section[b-aa2z70w3sl] {
+/*@media (max-width: 480px) {
+    section {
         padding: 2rem 1rem;
     }
 
-        #inicio .portada[b-aa2z70w3sl] {
-            padding: 1rem;
+        #inicio .portada {
+            padding: 1.5rem;
         }
 
-            #inicio .portada .tittle[b-aa2z70w3sl] {
-                font-size: 1rem;
+            #inicio .portada .tittle {
+                font-size: 1.25rem;
             }
 
-            #inicio .portada .description[b-aa2z70w3sl] {
+            #inicio .portada .description {
                 margin-top: 10px;
                 font-size: 1rem;
             }
 
-    #empresa .concepto[b-aa2z70w3sl] {
+    #empresa .concepto {
         font-size: 1.25rem;
     }
 
-    #empresa .description div[b-aa2z70w3sl] {
+    #empresa .description div {
         width: 400px;
         padding: 1rem 1rem;
     }
 
-    #quehacemos[b-aa2z70w3sl] {
+    #quehacemos {
         flex-direction: column;
     }
 
-        #quehacemos > div[b-aa2z70w3sl] {
+        #quehacemos > div {
             width: 100%;
         }
 
-        #quehacemos .description p[b-aa2z70w3sl] {
+        #quehacemos .description p {
             text-align: justify;
             padding: 1rem;
         }
 
 
-    #proceso article[b-aa2z70w3sl] {
+    #proceso article {
         flex-direction: column;
         width: 100%;
         padding: 1rem 0rem;
     }
 
-        #proceso article div[b-aa2z70w3sl] {
+        #proceso article div {
             width: 100%;
             padding: 1rem 0rem;
         }
 
-        #proceso article img[b-aa2z70w3sl] {
+        #proceso article img {
             width: 100%;
         }
 
-        #proceso article div .shadow-left[b-aa2z70w3sl] {
+        #proceso article div .shadow-left {
             box-shadow: -3px 3px 3px 3px RGB(0 0 0 / 50%);
         }
 
-        #proceso article div .shadow-right[b-aa2z70w3sl] {
+        #proceso article div .shadow-right {
             box-shadow: 3px 3px 3px 3px RGB(0 0 0 / 50%);
         }
 
-            #servicios .description article[b-aa2z70w3sl] {
+            #servicios .description article {
                 width: 100%;
                 height: 100%;
                 padding: 0rem;
@@ -267,76 +267,77 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
 }
 
 @media (min-width: 481px) and (max-width: 640px) {
-    section[b-aa2z70w3sl] {
+    section {
         padding: 1rem;
     }
 
-    #inicio .portada[b-aa2z70w3sl] {
+    #inicio .portada {
         padding: 1rem;
     }
 
-        #inicio .portada .tittle[b-aa2z70w3sl] {
+        #inicio .portada .tittle {
             font-size: 2rem;
         }
 
-        #inicio .portada .description[b-aa2z70w3sl] {
+        #inicio .portada .description {
             margin-top: 10px;
             font-size: 1.5rem;
         }
 
-    #empresa .concepto[b-aa2z70w3sl] {
+    #empresa .concepto {
         font-size: 1.25rem;
     }
 
-    #empresa .description div[b-aa2z70w3sl] {
+    #empresa .description div {
         width: 400px;
         padding: 1rem 1rem;
     }
 
-    #quehacemos[b-aa2z70w3sl] {
+    #quehacemos {
         flex-direction: column;
     }
 
-        #quehacemos > div[b-aa2z70w3sl] {
+        #quehacemos > div {
             width: 100%;
         }
 
-        #quehacemos .description p[b-aa2z70w3sl] {
+        #quehacemos .description p {
             text-align: justify;
             padding: 1rem;
         }
 
 
-    #proceso article[b-aa2z70w3sl] {
+    #proceso article {
         flex-direction: column;
         width: 100%;
         padding: 1rem 0rem;
     }
 
-        #proceso article div[b-aa2z70w3sl] {
+        #proceso article div {
             width: 100%;
             padding: 1rem 0rem;
         }
 
-        #proceso article img[b-aa2z70w3sl] {
+        #proceso article img {
             width: 100%;
         }
 
-        #proceso article div .shadow-left[b-aa2z70w3sl] {
+        #proceso article div .shadow-left {
             box-shadow: -3px 3px 3px 3px RGB(0 0 0 / 50%);
         }
 
-        #proceso article div .shadow-right[b-aa2z70w3sl] {
+        #proceso article div .shadow-right {
             box-shadow: 3px 3px 3px 3px RGB(0 0 0 / 50%);
         }
 
-    #servicios .description article[b-aa2z70w3sl] {
+    #servicios .description article {
         width: 100%;
         height: 100%;
         padding: 0rem;
         margin: 0rem;
     }
 }
+*/
 /* /Shared/FooterPage.razor.rz.scp.css */
 
 #footerPage[b-df7rb1v7cj] {
