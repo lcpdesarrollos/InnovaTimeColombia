@@ -161,7 +161,7 @@ h1, h5 {
             }
 
 
-/*@media (max-width: 480px) {
+@media (max-width: 480px) {
     section {
         padding: 2rem 1rem;
     }
@@ -304,4 +304,3 @@ h1, h5 {
         margin: 0rem;
     }
 }
-*/
