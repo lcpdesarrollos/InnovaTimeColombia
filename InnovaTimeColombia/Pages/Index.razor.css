@@ -86,7 +86,7 @@ h1, h5 {
         width: 48%;
     }
 
-    #quehacemos .imagen {
+    #quehacemos img {
         box-shadow: -2rem -1rem #075E54;
     }
 
@@ -167,19 +167,19 @@ h1, h5 {
         font-size: 1rem;
     }
 
-        #inicio .portada {
-            padding: 1rem;
+    #inicio .portada {
+        padding: 1rem;
+    }
+
+        #inicio .portada .tittle {
+            font-size: 1.25rem;
+            margin-top: 80px;
         }
 
-            #inicio .portada .tittle {
-                font-size: 1.25rem;
-                margin-top: 80px;
-            }
-
-            #inicio .portada .description {
-                margin-top: 5px;
-                font-size: 1rem;
-            }
+        #inicio .portada .description {
+            margin-top: 5px;
+            font-size: 1rem;
+        }
 
     #empresa .concepto {
         font-size: 1.25rem;
@@ -200,8 +200,9 @@ h1, h5 {
             margin-bottom: 1rem;
         }
 
-        #quehacemos .imagen {
+        #quehacemos img {
             box-shadow: -0.5rem -0.5rem #075E54;
+            width: 95%;
         }
 
         #quehacemos .description p {
@@ -222,7 +223,7 @@ h1, h5 {
         }
 
         #proceso article img {
-            width: 100%;
+            width: 95%;
         }
 
         #proceso article div .shadow-left {
@@ -233,41 +234,42 @@ h1, h5 {
             box-shadow: 3px 3px 3px 3px RGB(0 0 0 / 50%);
         }
 
-            #servicios .description article {
-                width: 100%;
-                height: 100%;
-                padding: 0rem;
-                margin: 0rem;
-            }
+    #servicios .description article {
+        width: 100%;
+        height: 100%;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 640px) {
     section {
         padding: 2rem 1rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
-        #inicio .portada {
-            padding: 1rem;
+    #inicio .portada {
+        padding: 1.5rem;
+    }
+
+        #inicio .portada .tittle {
+            font-size: 1.5rem;
+            margin-top: 50px;
         }
 
-            #inicio .portada .tittle {
-                font-size: 1.25rem;
-                margin-top: 80px;
-            }
-
-            #inicio .portada .description {
-                margin-top: 5px;
-                font-size: 1rem;
-            }
+        #inicio .portada .description {
+            margin-top: 5px;
+            font-size: 1.25rem;
+        }
 
     #empresa .concepto {
         font-size: 1.25rem;
+        padding: 1rem;
     }
 
     #empresa .description div {
         width: 100%;
-        padding: 1rem 1rem;
+        padding: 1rem;
         margin: 0rem;
     }
 
@@ -278,15 +280,17 @@ h1, h5 {
         #quehacemos > div {
             width: 100%;
             margin-bottom: 1rem;
+            padding: 1rem;
         }
 
-        #quehacemos .imagen {
+        #quehacemos img {
             box-shadow: -0.5rem -0.5rem #075E54;
+            width: 100%;
         }
 
         #quehacemos .description p {
             text-align: justify;
-            padding: 1rem;
+            padding: 1.25rem;
         }
 
 
@@ -302,7 +306,7 @@ h1, h5 {
         }
 
         #proceso article img {
-            width: 100%;
+            width: 90%;
         }
 
         #proceso article div .shadow-left {
@@ -313,10 +317,10 @@ h1, h5 {
             box-shadow: 3px 3px 3px 3px RGB(0 0 0 / 50%);
         }
 
-            #servicios .description article {
-                width: 100%;
-                height: 100%;
-                padding: 0rem;
-                margin: 0rem;
-            }
+    #servicios .description article {
+        width: 90%;
+        height: 90%;
+        padding: 0rem;
+        margin: 0rem;
+    }
 }
