@@ -324,3 +324,82 @@ h1, h5 {
         margin: 0rem;
     }
 }
+
+@media (min-width: 641px) and (max-width: 800px) {
+    section {
+        padding: 2rem;
+    }
+
+    #inicio .portada {
+        padding: 2rem;
+    }
+
+        #inicio .portada .tittle {
+            font-size: 2rem;
+        }
+
+        #inicio .portada .description {
+            font-size: 1.5rem;
+        }
+
+    #empresa .concepto {
+        font-size: 1.3rem;
+    }
+
+    #empresa .description div {
+        width: 100%;
+        padding: 1.5rem;
+        margin: 1.5rem;
+    }
+
+    #quehacemos {
+        flex-direction: column;
+    }
+
+        #quehacemos > div {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 2rem;
+        }
+
+        #quehacemos img {
+            box-shadow: -1rem -1rem #075E54;
+            width: 100%;
+        }
+
+        #quehacemos .description p {
+            text-align: justify;
+            padding: 1.25rem;
+        }
+
+
+    #proceso article {
+        
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+        #proceso article div {
+            width: 100%;
+            padding: 1rem;
+        }
+
+        #proceso article img {
+            width: 100%;
+        }
+
+        #proceso article div .shadow-left {
+            box-shadow: -5px 5px 5px 5px RGB(0 0 0 / 50%);
+        }
+
+        #proceso article div .shadow-right {
+            box-shadow: 5px 5px 5px 5px RGB(0 0 0 / 50%);
+        }
+
+    #servicios .description article {
+        width: 50%;
+        height: 50%;
+        padding: 1rem;
+        margin: 0rem;
+    }
+}
