@@ -454,3 +454,53 @@ h1, h5 {
         margin: 0rem;
     }
 }
+
+@media (min-width: 961px) and (max-width: 1120px) {
+    section {
+        padding: 4rem;
+    }
+
+    #inicio .portada .tittle {
+        font-size: 2.5rem;
+    }
+
+    #inicio .portada .description {
+        font-size: 1.7rem;
+    }
+
+    #empresa .concepto {
+        font-size: 1.4rem;
+    }
+
+    #empresa .description div {
+        width: 40%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    #quehacemos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        #quehacemos > div {
+            width: 80%;
+            margin-bottom: 1rem;
+            padding: 2rem;
+        }
+
+
+    #proceso article {
+        width: 100%;
+        padding: 2rem;
+        align-items: center;
+    }
+
+        #proceso article div {
+            padding: 1rem;
+        }
+
+        #proceso article img {
+            width: 100%;
+        }
+}
