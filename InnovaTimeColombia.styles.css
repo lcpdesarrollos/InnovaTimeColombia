@@ -113,6 +113,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     display: flex;
     justify-content: space-around;
     background-color: #F5F5F5;
+    align-items: center;
 }
 
     #quehacemos > div[b-aa2z70w3sl] {
@@ -138,6 +139,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     width: 100%;
     padding: 1rem 10rem;
     justify-content: space-between;
+    align-items: center;
 }
 
     #proceso article div[b-aa2z70w3sl] {
@@ -394,7 +396,6 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     #proceso article[b-aa2z70w3sl] {
         width: 100%;
         padding: 1.5rem;
-        align-items: center;
     }
 
         #proceso article div[b-aa2z70w3sl] {
@@ -460,7 +461,6 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     #proceso article[b-aa2z70w3sl] {
         width: 100%;
         padding: 1.5rem;
-        align-items: center;
     }
 
         #proceso article div[b-aa2z70w3sl] {
@@ -490,7 +490,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
 
 @media (min-width: 961px) and (max-width: 1120px) {
     section[b-aa2z70w3sl] {
-        padding: 4rem;
+        padding: 2rem;
     }
 
     #inicio .portada .tittle[b-aa2z70w3sl] {
@@ -506,14 +506,13 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     }
 
     #empresa .description div[b-aa2z70w3sl] {
-        width: 40%;
-        padding: 1rem;
+        width: 45%;
+        padding: 0.5rem;
         margin: 1rem;
     }
 
     #quehacemos[b-aa2z70w3sl] {
         flex-direction: column;
-        align-items: center;
     }
 
         #quehacemos > div[b-aa2z70w3sl] {
@@ -526,7 +525,6 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     #proceso article[b-aa2z70w3sl] {
         width: 100%;
         padding: 2rem;
-        align-items: center;
     }
 
         #proceso article div[b-aa2z70w3sl] {
@@ -534,8 +532,101 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         }
 
         #proceso article img[b-aa2z70w3sl] {
-            width: 100%;
+            width: 80%;
         }
+}
+
+@media (min-width: 1121px) and (max-width: 1280px) {
+    section[b-aa2z70w3sl] {
+        padding: 2rem;
+    }
+
+    #inicio .portada .tittle[b-aa2z70w3sl] {
+        font-size: 2.5rem;
+    }
+
+    #inicio .portada .description[b-aa2z70w3sl] {
+        font-size: 1.7rem;
+    }
+
+    #empresa .concepto[b-aa2z70w3sl] {
+        font-size: 1.4rem;
+    }
+
+    #empresa .description div[b-aa2z70w3sl] {
+        width: 45%;
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    #quehacemos[b-aa2z70w3sl] {
+        flex-direction: column;
+    }
+
+        #quehacemos > div[b-aa2z70w3sl] {
+            width: 80%;
+            margin-bottom: 1rem;
+            padding: 2rem;
+        }
+
+
+    #proceso article[b-aa2z70w3sl] {
+        width: 100%;
+        padding: 2rem;
+        
+    }
+
+        #proceso article img[b-aa2z70w3sl] {
+            width: 70%;
+        }
+
+    #servicios .description article[b-aa2z70w3sl] {
+        width: 30%;
+        height: 50%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    section[b-aa2z70w3sl] {
+        padding: 2rem;
+    }
+
+    #inicio .portada .tittle[b-aa2z70w3sl] {
+        font-size: 3rem;
+    }
+
+    #empresa .description div[b-aa2z70w3sl] {
+        width: 45%;
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+        #quehacemos > div[b-aa2z70w3sl] {
+            width: 80%;
+            padding: 2rem;
+        }
+
+        #quehacemos .description p[b-aa2z70w3sl] {
+            padding: 1rem;
+        }
+
+    #proceso article[b-aa2z70w3sl] {
+        width: 100%;
+        padding: 2rem;
+    }
+
+        #proceso article img[b-aa2z70w3sl] {
+            width: 80%;
+        }
+
+    #servicios .description article[b-aa2z70w3sl] {
+        width: 30%;
+        height: 50%;
+        padding: 1rem;
+        margin: 1rem;
+    }
 }
 /* /Shared/FooterPage.razor.rz.scp.css */
 
