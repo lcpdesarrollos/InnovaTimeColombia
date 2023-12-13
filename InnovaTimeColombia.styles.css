@@ -628,6 +628,41 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         margin: 1rem;
     }
 }
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+    section[b-aa2z70w3sl] {
+        padding: 2rem;
+    }
+
+    #inicio .portada .tittle[b-aa2z70w3sl] {
+        margin-top: 50px;
+    }
+
+    #empresa .description div[b-aa2z70w3sl] {
+        width: 30%;
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    #quehacemos .description p[b-aa2z70w3sl] {
+        padding: 2rem;
+    }
+
+    #proceso article[b-aa2z70w3sl] {
+        padding: 2rem;
+    }
+
+        #proceso article img[b-aa2z70w3sl] {
+            width: 70%;
+        }
+
+    #servicios .description article[b-aa2z70w3sl] {
+        width: 30%;
+        height: 50%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
 /* /Shared/FooterPage.razor.rz.scp.css */
 
 #footerPage[b-df7rb1v7cj] {
