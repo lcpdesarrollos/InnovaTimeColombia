@@ -5,27 +5,49 @@
     padding: 1rem;
 }
 
-
-
-
-    #footerPage .container article {
+    #footerPage article {
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;
     }
 
-        #footerPage .container article div {
+        #footerPage article div {
             display: flex;
             flex-direction: column;
             padding: 1.5rem;
             width: 30%;
         }
 
-        #footerPage .container article .logo-empresa img {
+        #footerPage article .logo-empresa img {
             width: 15rem;
         }
 
-            #footerPage .container article .redes-sociales div a img{
-                width: 30px;
-                margin-bottom: 1rem;
+        #footerPage article .redes-sociales p {
+            flex-direction: row;
+            flex-flow: row wrap;
+            margin-top: 10px;
+        }
+
+            #footerPage article .redes-sociales p a {
+                margin: 0rem 0.5rem;
             }
+
+            #footerPage article .redes-sociales p img {
+                width: 30px;
+            }
+
+@media (max-width: 640px) {
+
+    #footerPage article div {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1120px) {
+    #footerPage article div {
+        width: 50%;
+        align-items: center;
+    }
+}
+
