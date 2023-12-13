@@ -155,7 +155,7 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     }
 
     #proceso article img[b-aa2z70w3sl] {
-        width: 50%;
+        width: 60%;
     }
 
     #proceso article div .shadow-left[b-aa2z70w3sl] {
@@ -573,7 +573,6 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
     #proceso article[b-aa2z70w3sl] {
         width: 100%;
         padding: 2rem;
-        
     }
 
         #proceso article img[b-aa2z70w3sl] {
@@ -603,14 +602,14 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         margin: 1rem;
     }
 
-        #quehacemos > div[b-aa2z70w3sl] {
-            width: 80%;
-            padding: 2rem;
-        }
+    #quehacemos > div[b-aa2z70w3sl] {
+        width: 80%;
+        padding: 2rem;
+    }
 
-        #quehacemos .description p[b-aa2z70w3sl] {
-            padding: 1rem;
-        }
+    #quehacemos .description p[b-aa2z70w3sl] {
+        padding: 1rem;
+    }
 
     #proceso article[b-aa2z70w3sl] {
         width: 100%;
@@ -660,7 +659,22 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         width: 30%;
         height: 50%;
         padding: 1rem;
-        margin: 1rem; 
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1760px) {
+    
+    #proceso article img[b-aa2z70w3sl] {
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 1601px) and (max-width: 1760px) {
+
+    #proceso article img[b-aa2z70w3sl] {
+        width: 70%;
     }
 }
 /* /Shared/FooterPage.razor.rz.scp.css */
