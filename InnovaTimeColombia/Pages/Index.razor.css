@@ -462,7 +462,6 @@ h1, h5 {
 
     #inicio .portada .tittle {
         font-size: 2.5rem;
-        background-color:red;
     }
 
     #inicio .portada .description {
@@ -511,6 +510,7 @@ h1, h5 {
 
     #inicio .portada .tittle {
         font-size: 2.5rem;
+        background-color: red;
     }
 
     #inicio .portada .description {
