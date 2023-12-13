@@ -487,6 +487,56 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
         margin: 0rem;
     }
 }
+
+@media (min-width: 961px) and (max-width: 1120px) {
+    section[b-aa2z70w3sl] {
+        padding: 4rem;
+    }
+
+    #inicio .portada .tittle[b-aa2z70w3sl] {
+        font-size: 2.5rem;
+    }
+
+    #inicio .portada .description[b-aa2z70w3sl] {
+        font-size: 1.7rem;
+    }
+
+    #empresa .concepto[b-aa2z70w3sl] {
+        font-size: 1.4rem;
+    }
+
+    #empresa .description div[b-aa2z70w3sl] {
+        width: 40%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    #quehacemos[b-aa2z70w3sl] {
+        flex-direction: column;
+        align-items: center;
+    }
+
+        #quehacemos > div[b-aa2z70w3sl] {
+            width: 80%;
+            margin-bottom: 1rem;
+            padding: 2rem;
+        }
+
+
+    #proceso article[b-aa2z70w3sl] {
+        width: 100%;
+        padding: 2rem;
+        align-items: center;
+    }
+
+        #proceso article div[b-aa2z70w3sl] {
+            padding: 1rem;
+        }
+
+        #proceso article img[b-aa2z70w3sl] {
+            width: 100%;
+        }
+}
 /* /Shared/FooterPage.razor.rz.scp.css */
 
 #footerPage[b-df7rb1v7cj] {
