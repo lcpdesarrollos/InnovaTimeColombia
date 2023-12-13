@@ -595,3 +595,38 @@ h1, h5 {
         margin: 1rem;
     }
 }
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+    section {
+        padding: 2rem;
+    }
+
+    #inicio .portada .tittle {
+        margin-top: 50px;
+    }
+
+    #empresa .description div {
+        width: 30%;
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+
+    #quehacemos .description p {
+        padding: 2rem;
+    }
+
+    #proceso article {
+        padding: 2rem;
+    }
+
+        #proceso article img {
+            width: 70%;
+        }
+
+    #servicios .description article {
+        width: 30%;
+        height: 50%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+}
