@@ -543,7 +543,6 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
 
     #inicio .portada .tittle[b-aa2z70w3sl] {
         font-size: 2.5rem;
-        background-color: red;
     }
 
     #inicio .portada .description[b-aa2z70w3sl] {
@@ -595,6 +594,11 @@ h1[b-aa2z70w3sl], h5[b-aa2z70w3sl] {
 
     #inicio .portada .tittle[b-aa2z70w3sl] {
         font-size: 3rem;
+        margin-top: 50px;
+    }
+
+    #inicio .portada .description[b-aa2z70w3sl] {
+        margin-top: 20px;
     }
 
     #empresa .description div[b-aa2z70w3sl] {
