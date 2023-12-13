@@ -206,7 +206,6 @@ h1, h5 {
         }
 
         #quehacemos .description p {
-            text-align: justify;
             padding: 1rem;
         }
 
@@ -285,14 +284,7 @@ h1, h5 {
 
         #quehacemos img {
             box-shadow: -0.5rem -0.5rem #075E54;
-            width: 100%;
         }
-
-        #quehacemos .description p {
-            text-align: justify;
-            padding: 1.25rem;
-        }
-
 
     #proceso article {
         flex-direction: column;
@@ -364,19 +356,78 @@ h1, h5 {
 
         #quehacemos img {
             box-shadow: -1rem -1rem #075E54;
+        }
+
+    #proceso article {
+        width: 100%;
+        padding: 1.5rem;
+        align-items: center;
+    }
+
+        #proceso article div {
+            width: 100%;
+            padding: 1rem;
+        }
+
+        #proceso article img {
             width: 100%;
         }
 
-        #quehacemos .description p {
-            text-align: justify;
-            padding: 1.25rem;
+        #proceso article div .shadow-left {
+            box-shadow: -5px 5px 5px 5px RGB(0 0 0 / 50%);
+        }
+
+        #proceso article div .shadow-right {
+            box-shadow: 5px 5px 5px 5px RGB(0 0 0 / 50%);
+        }
+
+    #servicios .description article {
+        width: 50%;
+        height: 50%;
+        padding: 1rem;
+        margin: 0rem;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 960px) {
+    section {
+        padding: 3rem;
+    }
+
+    #inicio .portada .tittle {
+        font-size: 2.5rem;
+        margin-top: 50px;
+    }
+
+    #inicio .portada .description {
+        font-size: 1.5rem;
+    }
+
+    #empresa .concepto {
+        font-size: 1.3rem;
+    }
+
+    #empresa .description div {
+        width: 80%;
+        padding: 2rem;
+        margin: 2rem;
+    }
+
+    #quehacemos {
+        flex-direction: column;
+    }
+
+        #quehacemos > div {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 2rem;
         }
 
 
     #proceso article {
-        
         width: 100%;
         padding: 1.5rem;
+        align-items: center;
     }
 
         #proceso article div {
