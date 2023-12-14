@@ -782,6 +782,11 @@ img[b-qxs20e82c2] {
         align-items: center;
     }
 
+        .menu-top .options ul[b-qxs20e82c2] {
+            display: flex;
+            list-style: none;
+        }
+
         .menu-top .options a[b-qxs20e82c2] {
             white-space: nowrap;
             text-decoration: none;
@@ -811,9 +816,20 @@ img[b-qxs20e82c2] {
 @media (max-width: 800px) {
     .options[b-qxs20e82c2] {
         position: absolute;
-        margin-top: 4rem;
-        display: flex;
+        margin-top: 9rem;
+    }
+
+    .menu-top .options ul[b-qxs20e82c2] {
         flex-direction: column;
+    }
+
+        .menu-top .options ul li[b-qxs20e82c2] {
+            width: 100%;
+            background-color: aqua;
+        }
+
+    .options a[b-qxs20e82c2] {
+        width: 100%;
     }
 }
 
