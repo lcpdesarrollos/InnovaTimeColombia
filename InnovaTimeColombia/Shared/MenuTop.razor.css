@@ -37,6 +37,11 @@ img {
         align-items: center;
     }
 
+        .menu-top .options ul {
+            display: flex;
+            list-style: none;
+        }
+
         .menu-top .options a {
             white-space: nowrap;
             text-decoration: none;
@@ -66,9 +71,20 @@ img {
 @media (max-width: 800px) {
     .options {
         position: absolute;
-        margin-top: 4rem;
-        display: flex;
+        margin-top: 9rem;
+    }
+
+    .menu-top .options ul {
         flex-direction: column;
+    }
+
+        .menu-top .options ul li {
+            width: 100%;
+            background-color: aqua;
+        }
+
+    .options a {
+        width: 100%;
     }
 }
 
