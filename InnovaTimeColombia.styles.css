@@ -775,7 +775,7 @@ img[b-qxs20e82c2] {
     }
 
         .menu-top .logo img[b-qxs20e82c2] {
-            width: 250px;
+            width: 16rem;
         }
 
     .menu-top .options[b-qxs20e82c2] {
@@ -801,3 +801,30 @@ img[b-qxs20e82c2] {
         .menu-top .redes-sociales a img[b-qxs20e82c2] {
             width: 25px;
         }
+
+@media (max-width: 640px) {
+    .menu-top .logo img[b-qxs20e82c2] {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .options[b-qxs20e82c2] {
+        position: absolute;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+    .menu-top .logo img[b-qxs20e82c2] {
+        width: 12rem;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1120px) {
+    .menu-top .logo img[b-qxs20e82c2] {
+        width: 14rem;
+    }
+}
