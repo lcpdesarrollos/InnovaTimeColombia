@@ -3,7 +3,7 @@
     <div class="logo">
         <img src="images/logo_itc.png" />
     </div>
-    <div class="options wow fadeInUp">
+    <div class="options @Class">
         <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#empresa">Quienes Somos</a></li>
@@ -16,11 +16,27 @@
         <a href="https://api.whatsapp.com/send?phone=573052072324" title="whatsApp" target="_blank">
             <img src="images/iconos/whatsapp.svg" />
         </a>
+        <div id="menuResponsive" href="#" @onclick="MenuResponsive">
+            <img src="images/iconos/menu.png" />
+        </div>
     </div>
 </nav>
 
-<script>
+@* <script>
 
-</script>
+</script> *@
 
+@code
+{
+    private string Class { get; set; }
+
+    private void MenuResponsive()
+    {
+        if (string.IsNullOrEmpty(Class))
+            Class = "options-responsive wow fadeInDown";
+        else
+            Class = null;
+
+    }
+}
 
