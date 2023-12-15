@@ -815,17 +815,21 @@ img[b-qxs20e82c2] {
 
 @media (max-width: 800px) {
     .options[b-qxs20e82c2] {
+        display: block;
         position: absolute;
-        margin-top: 9rem;
     }
 
     .menu-top .options ul[b-qxs20e82c2] {
         flex-direction: column;
+        width: 200px;
+        margin-top: 15rem;
+        right: 0;
     }
 
         .menu-top .options ul li[b-qxs20e82c2] {
             width: 100%;
             background-color: aqua;
+            padding: 0.5rem 1rem 0.5rem 0;
         }
 
     .options a[b-qxs20e82c2] {
