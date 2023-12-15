@@ -30,6 +30,11 @@
 {
     private string Class { get; set; }
 
+    protected override async Task OnInitializedAsync()
+    {
+        Class = "options-responsive";
+    }
+
     private void MenuResponsive()
     {
         if (string.IsNullOrEmpty(Class))
