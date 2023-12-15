@@ -70,17 +70,21 @@ img {
 
 @media (max-width: 800px) {
     .options {
+        display: block;
         position: absolute;
-        margin-top: 9rem;
     }
 
     .menu-top .options ul {
         flex-direction: column;
+        width: 200px;
+        margin-top: 15rem;
+        right: 0;
     }
 
         .menu-top .options ul li {
             width: 100%;
             background-color: aqua;
+            padding: 0.5rem 1rem 0.5rem 0;
         }
 
     .options a {
