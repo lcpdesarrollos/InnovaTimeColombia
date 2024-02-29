@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "InnovaTimeColombia",
   "resources": {
-    "hash": "sha256-gLyPSXrQYcU24DnOg4qcNJOusMOKXSh8rzy98W3t/iE=",
+    "hash": "sha256-sdFaK7+3mjQDU7MzOtk6S2rXRefRQo2zYTZRHqfa6ws=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.jgt5nhn140.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "InnovaTimeColombia.wasm": "sha256-YXsiH8bYgVBB0SyUijzDkfb+WbDMt7XmJMBI0OECz7Q=",
+      "InnovaTimeColombia.wasm": "sha256-RMwHZL0c0gEl3WoItMhVaeRtA6oHEOMwwotIqA9NAtg=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-Ww8T1BIjmUeELsJwPcN7Bvu65xuz44vJqd7GKMQkDLQ=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-RNAqR0ff+baVaIhI+uEcLo9eT+pxGnBEvkCzqD+3roM=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-Ws5szf6fWPAXna+XyWsAhavx+WDFcA/91DQ7iPRPCMs=",
