@@ -28,7 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="web.config" />
+    <None Include="web.config">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

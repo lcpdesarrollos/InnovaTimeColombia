@@ -5,65 +5,58 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="author" content="InnovaTimeColombia" />
-    <!-- CSP -->
-    <!--<meta http-equiv="Content-Security-Policy"
-          content="default-src 'self' data: blob:;
-					script-src 'self' 'unsafe-inline' 'unsafe-eval';
-					style-src 'self' 'unsafe-inline';
-					img-src 'self' data: blob:;
-					media-src 'self' data: blob:;
-					frame-src 'self' data: blob:" />-->
+    <!--CSP-->
+    <meta http-equiv="Content-Security-Policy"
+          content="base-uri 'self';
+          default-src 'self';
+          script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval';
+          style-src 'self' 'unsafe-inline';
+          img-src 'self' data: blob:;
+          media-src 'self' data: blob:;
+          frame-src 'self' data: blob:;
+          upgrade-insecure-requests;" />
 
     <!-- CORS -->
     <!--<meta http-equiv="Access-Control-Allow-Origin" value="https://innovatimecolombia.xyz/" />
     <meta http-equiv="Access-Control-Allow-Methods" value="GET, PUT, POST, DELETE, PATCH" />-->
-
     <!-- HSTS -->
     <!--<meta http-equiv="Strict-Transport-Security" value="max-age=31536000; includeSubDomains" />-->
-
     <!-- Referrer-Policy -->
     <!--<meta http-equiv="Referrer-Policy" value="strict-origin-when-cross-origin" />-->
-
     <!--X-Content-Type-Options-->
     <!--<meta http-equiv="X-Content-Type-Options" value="nosniff" />-->
-
     <!-- X-Frame-Options -->
     <!--<meta http-equiv="X-Frame-Options" value="SAMEORIGIN" />-->
-
     <!-- X-XSS-Protection -->
     <!--<meta http-equiv="X-XSS-Protection" value="1; mode=block" />-->
-
     <!-- X-Permitted-Cross-Domain-Policies -->
     <!--<meta http-equiv="X-Permitted-Cross-Domain-Policies" value="master-only" />-->
-
     <!-- X-Powered-By -->
     <!--<remove name="X-Powered-By" />
     <meta http-equiv="X-Powered-By" value="InnovaTime" />-->
-
     <!-- Permissions-Policy -->
     <!--<meta http-equiv="Permissions-Policy"
           value="accelerometer=(self),
-				ambient-light-sensor=(self),
-				autoplay=(self), battery=(self),
-				camera=(self),
-				cross-origin-isolated=(self),
-				display-capture=(self),
-				document-domain=(self),
-				encrypted-media=(self),
-				execution-while-not-rendered=(self),
-				execution-while-out-of-viewport=(self),
-				fullscreen=(self), geolocation=(self),
-				gyroscope=(self), keyboard-map=(self),
-				magnetometer=(self), microphone=(self),
-				midi=(self), navigation-override=(self),
-				payment=(self), picture-in-picture=(self),
-				publickey-credentials-get=(self),
-				screen-wake-lock=(self),
-				sync-xhr=(self), usb=(self),
-				web-share=(self),
-				xr-spatial-tracking=(self)" />-->
-
-     <!--description--> 
+                ambient-light-sensor=(self),
+                autoplay=(self), battery=(self),
+                camera=(self),
+                cross-origin-isolated=(self),
+                display-capture=(self),
+                document-domain=(self),
+                encrypted-media=(self),
+                execution-while-not-rendered=(self),
+                execution-while-out-of-viewport=(self),
+                fullscreen=(self), geolocation=(self),
+                gyroscope=(self), keyboard-map=(self),
+                magnetometer=(self), microphone=(self),
+                midi=(self), navigation-override=(self),
+                payment=(self), picture-in-picture=(self),
+                publickey-credentials-get=(self),
+                screen-wake-lock=(self),
+                sync-xhr=(self), usb=(self),
+                web-share=(self),
+                xr-spatial-tracking=(self)" />-->
+    <!--description-->
     <meta name="description"
           content="Somos una empresa dedicada al Desarrollo de Software,
           innovando en los productos y desarrollos que hacemos." />
